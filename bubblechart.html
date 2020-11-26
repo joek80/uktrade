@@ -24,7 +24,7 @@
     
     d3.queue()
       .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")  // World shape
-      .defer(d3.csv, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_gpsLocSurfer.csv") // Position of circles
+      .defer(d3.csv, "https://raw.githubusercontent.com/joek80/uktrade/main/data/UK_Trading_Partners.csv") // Position of circles
       .await(ready);
     
     function ready(error, dataGeo, data) {
@@ -87,7 +87,7 @@
       // --------------- //
     
       // Add legend: circles
-      var valuesToShow = [100,4000,15000]
+      var valuesToShow = [1,7,20]
       var xCircle = 40
       var xLabel = 90
       svg
