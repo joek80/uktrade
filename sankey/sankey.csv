@@ -1,8 +1,14 @@
 source,target,value
-Barry,Elvis,2
-Frodo,Elvis,2
-Frodo,Sarah,2
-Barry,Alice,2
-Elvis,Sarah,2
-Elvis,Alice,2
-Sarah,Alice,4
+UK,United States,150
+UK,Germany,101
+UK,Netherlands,71
+UK,France,64
+UK,China,51
+UK,Ireland,47
+UK,Switzerland,26
+UK,Japan,22
+UK,Norway,22
+UK,India,16
+UK,Hong Kong,16
+UK,Canada,15
+UK,United Arab Emirates,13
