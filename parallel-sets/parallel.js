@@ -120,7 +120,7 @@ d3.sankey()
 }
 );
   main.variable(observer("color")).define("color", ["d3"], function(d3){return(
-d3.scaleOrdinal(["Perished"], ["#da4f81"]).unknown("#ccc")
+d3.scaleOrdinal(["UK"], ["#da4f81"]).unknown("#ccc")
 )});
   main.variable(observer("keys")).define("keys", ["data"], function(data){return(
 data.columns.slice(0, -1)
